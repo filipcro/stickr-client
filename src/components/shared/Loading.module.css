@@ -1,0 +1,28 @@
+.box {
+  
+}
+
+.rect1 {
+  animation: expand 1s ease alternate infinite;
+  animation-delay: 0.4s;
+}
+
+.rect2 {
+  animation: expand 1s ease alternate infinite;
+  animation-delay: 0.2s;
+}
+
+.rect3 {
+  animation: expand 1s ease alternate infinite;
+  
+}
+
+
+@keyframes expand {
+  70% {
+    transform: scale(1.0) translate(0,0);
+  }
+  100% {
+    transform: scale(1.2) translate(-7%, -7%);
+  }
+}

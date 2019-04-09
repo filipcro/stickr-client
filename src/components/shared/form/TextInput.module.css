@@ -1,0 +1,31 @@
+.group {
+  margin-bottom: 12px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--gray);
+  padding: 10px;
+  margin: 4px 0;
+  transition: all 0.2s ease-out;
+}
+
+.inputWithError {
+  composes: input;
+  border: 1px solid var(--red);
+}
+
+.input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 5px var(--blue);
+}
+
+.labelText {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.errorMessage {
+  color: var(--red);
+  font-size: 0.9em;
+}
