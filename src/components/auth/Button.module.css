@@ -9,7 +9,7 @@
   margin: auto;
   cursor: pointer;
   box-shadow: 4px 4px 8px #00000055;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .button:hover {

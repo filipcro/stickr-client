@@ -1,0 +1,29 @@
+{
+  "auth.logIn": {
+    "defaults": "Log In",
+    "origin": [
+      [
+        "src/components/auth/LogIn.js",
+        12
+      ]
+    ]
+  },
+  "auth.forgottenPasswordLink": {
+    "defaults": "Forgotten password?",
+    "origin": [
+      [
+        "src/components/auth/LogIn.js",
+        16
+      ]
+    ]
+  },
+  "auth.dontHaveAnAccount": {
+    "defaults": "Dont have an account?<0> Sign Up.</0>",
+    "origin": [
+      [
+        "src/components/auth/LogIn.js",
+        19
+      ]
+    ]
+  }
+}

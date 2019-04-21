@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lingui/core": "^2.7.4",
+    "@lingui/macro": "^2.7.4",
+    "@lingui/react": "^2.7.4",
     "@reach/router": "^1.2.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-i18next": "^10.7.0",
     "react-pose": "^4.0.8",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "source-map-explorer": "^1.8.0"
   },
   "scripts": {
+    "add-locale": "lingui add-locale",
+    "extract": "lingui extract",
+    "compile": "lingui compile",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,6 +36,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@lingui/cli": "^2.7.4",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "eslint-config-airbnb": "^17.1.0",

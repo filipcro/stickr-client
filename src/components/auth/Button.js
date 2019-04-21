@@ -1,10 +1,11 @@
 // @flow
 import React from 'react';
+import type { Node } from 'react';
 
 import style from './Button.module.css';
 
 type ButtonProps = {
-  text: string
+  text: Node
 };
 
 function Button(props: ButtonProps) {

@@ -1,21 +1,25 @@
 // @flow
 import React from 'react';
 import { Link } from '@reach/router';
+import { Trans } from '@lingui/macro';
 
 import LogInForm from './LogInForm';
 
 function LogIn() {
   return (
     <>
-      <h1>Log In</h1>
+      <h1>
+        <Trans id="auth.logIn">Log In</Trans>
+      </h1>
       <LogInForm />
       <p>
-        <Link to="/signup">Forgotten password?</Link>
+        <Link to="/forgoten-password"><Trans id="auth.forgottenPasswordLink">Forgotten password?</Trans></Link>
       </p>
-      <hr />
       <p>
-        {'Don\'t have an account?'}
-        <Link to="/signup"> Sign Up.</Link>
+        <Trans id="auth.dontHaveAnAccount">
+          Dont have an account?
+          <Link to="/signup"> Sign Up.</Link>
+        </Trans>
       </p>
     </>
   );

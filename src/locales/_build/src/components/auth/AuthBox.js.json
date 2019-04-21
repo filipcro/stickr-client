@@ -1,0 +1,11 @@
+{
+  "alt.logo": {
+    "defaults": "Stickr logo",
+    "origin": [
+      [
+        "src/components/auth/AuthBox.js",
+        21
+      ]
+    ]
+  }
+}

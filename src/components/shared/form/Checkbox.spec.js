@@ -34,7 +34,7 @@ it('passes data to parent', (done) => {
 
   const wraper = shallow(<Checkbox label="hey" value="first value" setValue={callback} />);
   const input = wraper.find('input');
-  input.simulate('click');
+  input.simulate('change', { target: { value } });
 });
 
 it('displays error message', () => {

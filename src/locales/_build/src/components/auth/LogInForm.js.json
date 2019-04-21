@@ -1,0 +1,38 @@
+{
+  "auth.email": {
+    "defaults": "Email",
+    "origin": [
+      [
+        "src/components/auth/LogInForm.js",
+        36
+      ]
+    ]
+  },
+  "auth.password": {
+    "defaults": "Password",
+    "origin": [
+      [
+        "src/components/auth/LogInForm.js",
+        44
+      ]
+    ]
+  },
+  "auth.rememberMeCheckBox": {
+    "defaults": "Remember me",
+    "origin": [
+      [
+        "src/components/auth/LogInForm.js",
+        53
+      ]
+    ]
+  },
+  "auth.logInButton": {
+    "defaults": "Log In",
+    "origin": [
+      [
+        "src/components/auth/LogInForm.js",
+        58
+      ]
+    ]
+  }
+}

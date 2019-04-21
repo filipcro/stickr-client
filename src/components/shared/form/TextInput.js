@@ -1,14 +1,18 @@
 // @flow
 import React from 'react';
+import type { Node } from 'react';
 
 import style from './TextInput.module.css';
 
 export type TextInputProps = {
-  label: string,
+  label: Node,
   value: string,
   type?: 'text' | 'password' | 'email',
   setValue: (value: string) => void,
-  error?: string
+  error?: Node,
+  blured?: (void) => void,
+  focused?: (void) => void,
+  required?: boolean
 }
 
 function TextInput(props: TextInputProps) {
@@ -17,7 +21,10 @@ function TextInput(props: TextInputProps) {
     value,
     type,
     setValue,
-    error
+    error,
+    blured,
+    focused,
+    required
   } = props;
 
   const onChange = (
@@ -36,7 +43,10 @@ function TextInput(props: TextInputProps) {
           type={type}
           value={value}
           onChange={onChange}
+          onBlur={blured}
+          onFocus={focused}
           className={inputClass}
+          required={required}
         />
       </label>
       {error ? <span className={style.errorMessage}>{error}</span> : ''}
@@ -46,7 +56,10 @@ function TextInput(props: TextInputProps) {
 
 TextInput.defaultProps = {
   type: 'text',
-  error: ''
+  error: '',
+  blured: () => {},
+  focused: () => {},
+  required: false
 };
 
 export default TextInput;

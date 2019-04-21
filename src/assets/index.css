@@ -8,8 +8,9 @@
     --red: #D5312C;
     
     --gray: #888888;
+    --glupost: 33;
 }
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -20,10 +21,6 @@ body {
     font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-p {
-    margin: 1em 0;
 }
 
 hr {

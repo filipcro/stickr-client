@@ -1,0 +1,20 @@
+{
+  "auth.signUp": {
+    "defaults": "Sign Up",
+    "origin": [
+      [
+        "src/components/auth/SignUp.js",
+        12
+      ]
+    ]
+  },
+  "auth.alreadyHaveAnAccount": {
+    "defaults": "Already have an account?<0> Log In.</0>",
+    "origin": [
+      [
+        "src/components/auth/SignUp.js",
+        15
+      ]
+    ]
+  }
+}

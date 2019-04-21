@@ -1,0 +1,56 @@
+{
+  "auth.fullName": {
+    "defaults": "Full name",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        61
+      ]
+    ]
+  },
+  "auth.email": {
+    "defaults": "Email",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        69
+      ]
+    ]
+  },
+  "auth.password": {
+    "defaults": "Password",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        77
+      ]
+    ]
+  },
+  "auth.confirmPassword": {
+    "defaults": "Repeat password",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        86
+      ]
+    ]
+  },
+  "auth.acceptTosCheckBox": {
+    "defaults": "I accept Tearms of Service",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        96
+      ]
+    ]
+  },
+  "auth.signUpButton": {
+    "defaults": "Sign Up",
+    "origin": [
+      [
+        "src/components/auth/SignUpForm.js",
+        107
+      ]
+    ]
+  }
+}

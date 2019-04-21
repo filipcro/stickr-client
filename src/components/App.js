@@ -2,23 +2,29 @@
 import React, { useState } from 'react';
 import { Router, Redirect } from '@reach/router';
 
+import I18n from './I18n';
+
 import AuthContext from '../context/auth';
 import AuthBox from './auth/AuthBox';
 import LogIn from './auth/LogIn';
 import SignUp from './auth/SignUp';
+import ForgottenPassword from './auth/ForgottenPassword';
 
 function App() {
   const [user, setUser] = useState(null);
 
   return (
     <AuthContext.Provider value={{ user, setUser }}>
-      <AuthBox>
+      <I18n>
         <Router>
-          <LogIn path="/login" />
-          <SignUp path="/signup" />
-          <Redirect from="*" to="/login" />
+          <AuthBox path="/">
+            <LogIn path="login" />
+            <SignUp path="signup" />
+            <ForgottenPassword path="forgoten-password" />
+            <Redirect from="*" to="login" />
+          </AuthBox>
         </Router>
-      </AuthBox>
+      </I18n>
     </AuthContext.Provider>
   );
 }

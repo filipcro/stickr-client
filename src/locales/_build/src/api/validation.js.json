@@ -1,0 +1,92 @@
+{
+  "formError.required": {
+    "defaults": "This field is required.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        20
+      ]
+    ]
+  },
+  "formError.minLength": {
+    "defaults": "This field minimum length is {0} characters.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        26
+      ]
+    ]
+  },
+  "formError.maxLength": {
+    "defaults": "This field maximum length is {0} characters.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        30
+      ]
+    ]
+  },
+  "formError.unchecked": {
+    "defaults": "This checkbox must be checked.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        39
+      ]
+    ]
+  },
+  "formError.requiredEmail": {
+    "defaults": "Email is required.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        49
+      ]
+    ]
+  },
+  "formError.invalidEmail": {
+    "defaults": "Invalid email format.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        57
+      ]
+    ]
+  },
+  "formError.requiredPassword": {
+    "defaults": "Password is required.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        67
+      ]
+    ]
+  },
+  "formError.shortPassword": {
+    "defaults": "Password needs to have {PASSWORD_MIN_LENGTH} or more characters.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        73
+      ]
+    ]
+  },
+  "formError.requiredPasswordConfirmation": {
+    "defaults": "Password confirmation is required.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        87
+      ]
+    ]
+  },
+  "formError.unmatchedPasswords": {
+    "defaults": "Passwords do not match.",
+    "origin": [
+      [
+        "src/api/validation.js",
+        93
+      ]
+    ]
+  }
+}

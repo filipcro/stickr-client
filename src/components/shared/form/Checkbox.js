@@ -26,7 +26,7 @@ function Checkbox(props: CheckboxProps) {
           className={style.input}
           type="checkbox"
           checked={value}
-          onClick={() => setValue(!value)}
+          onChange={() => setValue(!value)}
         />
         <span className={style.box} />
         <span className={style.labelText}>{label}</span>
